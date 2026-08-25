@@ -1,0 +1,35 @@
+name: Actualizar convocatorias
+
+on:
+  schedule:
+    # 08:00 y 20:00 hora Colombia (UTC-5) = 13:00 y 01:00 UTC
+    - cron: '0 13 * * *'
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar agente scraper (SECOP II + enriquecimiento de leads)
+        run: npm run scrape
+
+      - name: Commitear datos si cambiaron
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/convocatorias.json data/leads.json
+          git diff --cached --quiet && echo "Sin cambios en los datos." || git commit -m "chore: actualizar convocatorias y leads [automático]"
+          git push

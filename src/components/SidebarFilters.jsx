@@ -1,9 +1,12 @@
 import React from 'react';
-import { Filter, Star, FileText } from 'lucide-react';
+import { Filter, Star, FileText, X } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 export const SidebarFilters = () => {
-  const { filters, setFilters, leadsFilters, setLeadsFilters, searchMode, activeTab } = useAppContext();
+  const {
+    filters, setFilters, leadsFilters, setLeadsFilters, searchMode, activeTab,
+    ciudadesColombia, ciudadesColombiaLeads, isMobileFiltersOpen, setIsMobileFiltersOpen
+  } = useAppContext();
 
   const handleFilterChange = (field, value) => {
     setFilters(prev => ({ ...prev, [field]: value }));
@@ -30,19 +33,19 @@ export const SidebarFilters = () => {
   }
 
   return (
-    <aside style={{
-      width: '320px',
-      background: 'var(--bg-secondary)',
-      borderRight: '1px solid var(--border-color)',
-      padding: '2rem 1.5rem',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '1.5rem',
-      overflowY: 'auto'
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.1rem' }}>
-        <Filter size={20} color="var(--text-primary)" />
-        <h2 style={{ fontSize: '1.1rem', color: 'var(--text-primary)' }}>Filtros Avanzados</h2>
+    <>
+      {isMobileFiltersOpen && (
+        <div className="sidebar-backdrop" onClick={() => setIsMobileFiltersOpen(false)} />
+      )}
+      <aside className={`sidebar-filters ${isMobileFiltersOpen ? 'open' : ''}`}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <Filter size={20} color="var(--text-primary)" />
+          <h2 style={{ fontSize: '1.1rem', color: 'var(--text-primary)' }}>Filtros Avanzados</h2>
+        </div>
+        <button className="btn-icon sidebar-close-btn" onClick={() => setIsMobileFiltersOpen(false)} title="Cerrar filtros">
+          <X size={20} />
+        </button>
       </div>
 
       <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -130,6 +133,21 @@ export const SidebarFilters = () => {
       </div>
 
       <div className="filter-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+        <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Ciudad (Colombia)</label>
+        <select
+          className="input-field"
+          value={filters.ciudad}
+          onChange={e => handleFilterChange('ciudad', e.target.value)}
+          disabled={ciudadesColombia.length === 0}
+        >
+          <option value="">Todas las ciudades</option>
+          {ciudadesColombia.map(ciudad => (
+            <option key={ciudad} value={ciudad}>{ciudad}</option>
+          ))}
+        </select>
+      </div>
+
+      <div className="filter-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Estado del Proceso</label>
         <select 
           className="input-field" 
@@ -155,7 +173,12 @@ export const SidebarFilters = () => {
           <option value="concurso">Concurso</option>
           <option value="selección abreviada">Selección Abreviada</option>
           <option value="mínima cuantía">Mínima Cuantía</option>
-          <option value="invitación">Invitación</option>
+          <option value="contratación directa">Contratación Directa</option>
+          <option value="régimen especial">Régimen Especial</option>
+          <option value="solicitud de información">Solicitud de Información</option>
+          <option value="subasta">Subasta</option>
+          <option value="enajenación de bienes">Enajenación de Bienes</option>
+          <option value="otra modalidad">Otra Modalidad</option>
         </select>
       </div>
 
@@ -206,6 +229,21 @@ export const SidebarFilters = () => {
           </div>
 
           <div className="filter-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Ciudad (Colombia)</label>
+            <select
+              className="input-field"
+              value={leadsFilters.ciudad}
+              onChange={e => handleLeadsFilterChange('ciudad', e.target.value)}
+              disabled={ciudadesColombiaLeads.length === 0}
+            >
+              <option value="">Todas las ciudades</option>
+              {ciudadesColombiaLeads.map(ciudad => (
+                <option key={ciudad} value={ciudad}>{ciudad}</option>
+              ))}
+            </select>
+          </div>
+
+          <div className="filter-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Disponibilidad de Contacto</label>
             <label style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', fontSize: '0.85rem', color: 'var(--text-primary)' }}>
               <input type="checkbox" checked={leadsFilters.tiene_email} onChange={e => handleLeadsFilterChange('tiene_email', e.target.checked)} />
@@ -229,9 +267,9 @@ export const SidebarFilters = () => {
         onClick={() => {
           if (activeTab === 'convocatorias') {
             setFilters({
-              ...filters, globalSearch: '', pais: '', estado: '', 
-              tipoOportunidad: '', nivelRelevancia: '', afinidad_mpi: '', 
-              tipo_enlace: '',  favoritos: false, solo_con_pdf: false 
+              ...filters, globalSearch: '', pais: '', ciudad: '', estado: '',
+              tipoOportunidad: '', nivelRelevancia: '', afinidad_mpi: '',
+              tipo_enlace: '',  favoritos: false, solo_con_pdf: false
             });
           } else {
             setLeadsFilters({
@@ -245,6 +283,7 @@ export const SidebarFilters = () => {
       >
         Limpiar Filtros
       </button>
-    </aside>
+      </aside>
+    </>
   );
 };

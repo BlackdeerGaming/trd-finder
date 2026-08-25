@@ -44,7 +44,7 @@ export const ResultsView = () => {
           No se encontraron convocatorias que coincidan con los filtros y/o el perfil MPI.
         </div>
       ) : (
-        <div className="results-container" style={isGridMode ? {
+        <div className={`results-container ${isGridMode ? 'grid-mode' : ''}`} style={isGridMode ? {
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
           gap: '1.5rem',
@@ -119,7 +119,7 @@ const ResultCard = ({ item, isGridMode, isFavorite, onToggleFavorite, onSelect }
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: isGridMode ? '1fr' : 'repeat(3, 1fr)', gap: '0.75rem' }}>
+        <div className="card-meta-grid" style={{ display: 'grid', gridTemplateColumns: isGridMode ? '1fr' : 'repeat(3, 1fr)', gap: '0.75rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-muted)', fontSize: '0.8rem' }}>
             <Building2 size={14} />
             <span style={{ fontWeight: isOfficial ? 600 : 400 }}>{item.entidad}</span>

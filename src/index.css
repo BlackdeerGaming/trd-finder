@@ -143,6 +143,150 @@ button {
   overflow-y: auto;
   padding: 2rem;
   background: var(--bg-primary);
+  min-width: 0; /* permite que el contenido se encoja en vez de forzar overflow horizontal */
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  min-width: 260px;
+}
+
+.header-search {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  flex: 1 1 220px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-filters-toggle {
+  display: none;
+}
+
+/* Sidebar de filtros: panel fijo en escritorio, drawer deslizable en móvil/tablet */
+.sidebar-filters {
+  width: 320px;
+  flex-shrink: 0;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-color);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+}
+
+.sidebar-close-btn {
+  display: none;
+}
+
+.sidebar-backdrop {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .header-center {
+    justify-content: flex-start;
+    order: 3;
+    width: 100%;
+  }
+
+  .header-tagline {
+    display: none;
+  }
+
+  .btn-refresh-label {
+    display: none;
+  }
+
+  .header-filters-toggle {
+    display: inline-flex;
+  }
+
+  .sidebar-filters {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    max-width: 320px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    box-shadow: var(--shadow-md);
+  }
+
+  .sidebar-filters.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-close-btn {
+    display: inline-flex;
+  }
+
+  .sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 150;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 0.75rem 1rem;
+  }
+
+  .content-area {
+    padding: 1rem;
+  }
+
+  .header-bell {
+    display: none;
+  }
+
+  .results-container.grid-mode {
+    grid-template-columns: 1fr !important;
+  }
+
+  .card {
+    flex-direction: column !important;
+  }
+
+  .card-meta-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /* Scrollbar customization */

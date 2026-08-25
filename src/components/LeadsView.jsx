@@ -60,7 +60,7 @@ export const LeadsView = () => {
           No se encontraron clientes potenciales con los filtros actuales.
         </div>
       ) : (
-        <div className="results-container" style={isGridMode ? {
+        <div className={`results-container ${isGridMode ? 'grid-mode' : ''}`} style={isGridMode ? {
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
           gap: '1.5rem',
@@ -118,7 +118,7 @@ const LeadCard = ({ item, isGridMode, isFavorite, onToggleFavorite, onSelect }) 
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: isGridMode ? '1fr' : 'repeat(2, 1fr)', gap: '0.75rem' }}>
+        <div className="card-meta-grid" style={{ display: 'grid', gridTemplateColumns: isGridMode ? '1fr' : 'repeat(2, 1fr)', gap: '0.75rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-muted)', fontSize: '0.8rem' }}>
             <Building2 size={14} />
             <span>{item.sector}</span>

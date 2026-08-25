@@ -9,6 +9,13 @@ import { fileURLToPath } from 'url';
 
 const SECOP_ENDPOINT = 'https://www.datos.gov.co/resource/p6dx-8zbt.json';
 
+// Dataset oficial "SECOP II - Contacto Entidades y Proveedores" (Datos Abiertos Colombia).
+// Se cruza por nit_entidad (que ya viene en cada proceso de SECOP_ENDPOINT) para traer
+// datos de contacto REALES y verificables de la entidad: sitio web, correo, fax y
+// representante legal. No se inventa ni se hace scraping de terceros no oficiales.
+const CONTACT_ENDPOINT = 'https://www.datos.gov.co/resource/4ex9-j3n8.json';
+const CONTACT_BATCH_SIZE = 40;
+
 // Términos de búsqueda con sus tokens de verificación local, etiquetas temáticas
 // y peso de afinidad con el negocio de MPI LTDA (gestión documental, archivo, TRD, digitalización).
 // "tokens" se usan para VERIFICAR localmente (contra título+descripción reales) que el resultado
@@ -57,11 +64,15 @@ const RESULTS_PER_TERM = 30;
 const RESULTS_PER_DIVERSITY_QUERY = 15;
 const MAX_CONVOCATORIAS = 100;
 const MAX_LEADS = 20;
-// Cuántas convocatorias de cada modalidad "especial" (no invitación) se garantizan en el resultado
-// final. Sin esto, el enorme volumen de Contratación Directa reciente ("invitación") desplaza por
-// fecha a las licitaciones/concursos/mínimas cuantías más antiguas y el filtro "Tipo de Oportunidad"
-// queda vacío para esas categorías aunque sí existan procesos reales.
-const MIN_PER_NON_INVITACION_TIPO = 8;
+// Cuántas convocatorias de cada modalidad "especial" (ver DOMINANT_TIPOS) se garantizan en el
+// resultado final. Sin esto, el enorme volumen de Contratación Directa/Régimen Especial reciente
+// desplaza por fecha a las licitaciones/concursos/mínimas cuantías más antiguas y el filtro
+// "Tipo de Oportunidad" queda vacío para esas categorías aunque sí existan procesos reales.
+const MIN_PER_SPECIAL_TIPO = 8;
+
+// Modalidades reales de SECOP (verificadas contra los valores distintos de modalidad_de_contratacion
+// en el dataset) que dominan por volumen y no deben desplazar a las demás en el corte final.
+const DOMINANT_TIPOS = new Set(['contratación directa', 'régimen especial']);
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -84,13 +95,24 @@ const parseMoney = (value) => {
   return Number.isFinite(n) && n > 0 ? n : 0;
 };
 
+// Clasifica cada proceso según los valores REALES de modalidad_de_contratacion en SECOP
+// (verificado con un $group by sobre el dataset). Antes todo lo que no fuera Licitación/Concurso/
+// Selección Abreviada/Mínima Cuantía caía en una categoría inventada "invitación", que mezclaba
+// "Contratación directa" (la modalidad más común) con "Contratación régimen especial" (la segunda
+// más común) y otras completamente distintas, haciendo que el filtro "Tipo de Oportunidad" no
+// reflejara la modalidad real del proceso.
 const mapTipoOportunidad = (modalidad = '') => {
   const m = normalize(modalidad);
   if (m.includes('licitaci')) return 'licitación';
   if (m.includes('concurso')) return 'concurso';
   if (m.includes('seleccion') && m.includes('abreviada')) return 'selección abreviada';
   if (m.includes('minima cuant')) return 'mínima cuantía';
-  return 'invitación';
+  if (m.includes('regimen especial')) return 'régimen especial';
+  if (m.includes('directa')) return 'contratación directa';
+  if (m.includes('solicitud de informacion')) return 'solicitud de información';
+  if (m.includes('enajenacion')) return 'enajenación de bienes';
+  if (m.includes('subasta')) return 'subasta';
+  return 'otra modalidad';
 };
 
 // Verifica localmente, contra el título + descripción reales del proceso, qué términos de
@@ -136,15 +158,73 @@ const inferSector = (entidad = '') => {
   return 'Sector Público';
 };
 
-async function fetchSecop(params) {
-  const url = `${SECOP_ENDPOINT}?${params.toString()}`;
-  const res = await fetch(url, { headers: { Accept: 'application/json' } });
+// SECOP anexa marcas como "**", "//" o "*" al final de algunos nombres de entidad para
+// distinguir registros duplicados. Se recortan solo esos caracteres (nunca puntos, para no
+// dañar abreviaturas reales como "E.S.P." o "S.A.S.") y de paso esto une bajo un mismo lead
+// variantes del mismo nombre que antes quedaban separadas (p. ej. "GOBERNACION X" y "GOBERNACION X**").
+const cleanEntidadName = (name = '') =>
+  name
+    .toString()
+    .trim()
+    .replace(/[\s*/]+$/, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+const NO_CONTACT_NOTE = 'No se encontraron datos de contacto verificados; requiere investigación manual adicional.';
+const VERIFIED_CONTACT_NOTE =
+  'Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia).';
+
+const PLACEHOLDER_CONTACT_VALUES = new Set([
+  '', 'no provisto', 'n/a', 'no aplica', 'no definido', 'sin informacion', 'sin información',
+]);
+
+const cleanContactField = (value) => {
+  const v = (value ?? '').toString().trim();
+  return PLACEHOLDER_CONTACT_VALUES.has(normalize(v)) ? null : v;
+};
+
+const normalizeWebsite = (value) => {
+  const v = cleanContactField(value);
+  if (!v) return null;
+  const withProtocol = /^https?:\/\//i.test(v) ? v : `https://${v}`;
+  return withProtocol.toLowerCase();
+};
+
+const normalizeEmail = (value) => {
+  const v = cleanContactField(value);
+  return v && v.includes('@') ? v.toLowerCase() : null;
+};
+
+const normalizePhone = (value) => {
+  const v = cleanContactField(value);
+  return v && v.replace(/\D/g, '').length >= 7 ? v : null;
+};
+
+// Filtra el caso frecuente en el dataset donde "representante legal" quedó igual al nombre
+// de la entidad (persona jurídica registrada como su propio representante): no es un contacto útil.
+const normalizeContactPerson = (value, entidadName) => {
+  const v = cleanContactField(value);
+  if (!v) return null;
+  return normalize(v) === normalize(entidadName) ? null : v;
+};
+
+const FETCH_TIMEOUT_MS = 25000;
+
+// Algunos endpoints de Datos Abiertos Colombia pueden colgarse sin responder ni fallar
+// (comprobado con SECOP Integrado en consultas $group pesadas). AbortSignal.timeout evita que
+// una sola consulta lenta bloquee indefinidamente el resto del agente (crítico para la GitHub
+// Action programada, que tiene un límite de tiempo de ejecución).
+async function fetchJson(endpoint, params) {
+  const url = `${endpoint}?${params.toString()}`;
+  const res = await fetch(url, { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
   if (!res.ok) {
-    console.warn(`   ! SECOP respondió ${res.status} para ${url}`);
+    console.warn(`   ! ${endpoint} respondió ${res.status} para ${url}`);
     return [];
   }
   return res.json();
 }
+
+const fetchSecop = (params) => fetchJson(SECOP_ENDPOINT, params);
 
 const fetchByTerm = (term) =>
   fetchSecop(
@@ -189,7 +269,7 @@ function buildConvocatoria(record, matchedTerms) {
     record.codigo_principal_de_categoria ? `Categoría UNSPSC: ${record.codigo_principal_de_categoria}` : null,
   ].filter(Boolean);
 
-  const entidad = record.entidad || 'Entidad no especificada';
+  const entidad = cleanEntidadName(record.entidad) || 'Entidad no especificada';
   const ordenEntidad = record.ordenentidad ? ` (Orden ${record.ordenentidad})` : '';
 
   return {
@@ -227,17 +307,18 @@ function buildConvocatoria(record, matchedTerms) {
   };
 }
 
-// Selecciona el conjunto final garantizando hasta `minPerTipo` resultados de cada modalidad
-// no-invitación (licitación, concurso, selección abreviada, mínima cuantía) antes de llenar el resto
-// de los cupos con todo lo demás ordenado por prioridad de estado y fecha. Así ninguna modalidad real
-// queda invisible solo por ser menos frecuente que "invitación" (Contratación Directa).
+// Selecciona el conjunto final garantizando hasta `minPerTipo` resultados de cada modalidad NO
+// dominante (licitación, concurso, selección abreviada, mínima cuantía, etc.) antes de llenar el
+// resto de los cupos con todo lo demás ordenado por prioridad de estado y fecha. Así ninguna
+// modalidad real queda invisible solo por ser menos frecuente que Contratación Directa/Régimen
+// Especial (ver DOMINANT_TIPOS), que por volumen copan casi cualquier corte por fecha.
 function selectWithModalityQuota(convocatorias, comparator, max, minPerTipo) {
   const sorted = [...convocatorias].sort(comparator);
 
   const guaranteed = [];
   const tipoCounts = {};
   for (const c of sorted) {
-    if (c.tipo_oportunidad === 'invitación') continue;
+    if (DOMINANT_TIPOS.has(c.tipo_oportunidad)) continue;
     tipoCounts[c.tipo_oportunidad] = (tipoCounts[c.tipo_oportunidad] || 0) + 1;
     if (tipoCounts[c.tipo_oportunidad] <= minPerTipo) guaranteed.push(c);
   }
@@ -293,7 +374,7 @@ function buildLeads(convocatorias) {
           count === 1 ? '' : 'es'
         } de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: ${
           masReciente || 'fecha no disponible'
-        }. No se encontraron datos de contacto verificados; requiere investigación manual adicional.`,
+        }. ${NO_CONTACT_NOTE}`,
       };
     })
     .sort((a, b) => {
@@ -303,6 +384,82 @@ function buildLeads(convocatorias) {
     .slice(0, MAX_LEADS);
 
   return leads;
+}
+
+// Consulta el directorio oficial de contactos de SECOP II (CONTACT_ENDPOINT) por nit_entidad,
+// en lotes para no construir URLs excesivamente largas. nit_entidad es un campo de TEXTO en este
+// dataset (aunque parezca numérico), así que cada valor va entre comillas en el IN(...).
+// Una misma entidad suele tener varios registros históricos (una cuenta de SECOP II por cada
+// funcionario que la registró a lo largo de los años), a veces más de uno marcado como activo;
+// se toma el más reciente por fecha de creación, priorizando los activos sobre los inactivos.
+async function fetchContactsForNits(nits) {
+  const contactsByNit = new Map();
+  const uniqueNits = [...new Set(nits)];
+
+  for (let i = 0; i < uniqueNits.length; i += CONTACT_BATCH_SIZE) {
+    const batch = uniqueNits.slice(i, i + CONTACT_BATCH_SIZE);
+    const params = new URLSearchParams({
+      $where: `nit_entidad in(${batch.map((n) => `'${n}'`).join(',')}) AND es_entidad='Si'`,
+      $select: 'nit_entidad,esta_activa,feacha_de_creacion,website,correo_electronico,numero_fax,nombre_representante_legal,correo_representante_legal',
+      $limit: '1000',
+    });
+
+    try {
+      const records = await fetchJson(CONTACT_ENDPOINT, params);
+      for (const rec of records) {
+        const nit = String(rec.nit_entidad);
+        const existing = contactsByNit.get(nit);
+        const isBetter =
+          !existing ||
+          (rec.esta_activa === 'Si' && existing.esta_activa !== 'Si') ||
+          (rec.esta_activa === existing.esta_activa &&
+            new Date(rec.feacha_de_creacion || 0) > new Date(existing.feacha_de_creacion || 0));
+        if (isBetter) contactsByNit.set(nit, rec);
+      }
+    } catch (err) {
+      console.warn(`   ! Fallo la consulta de contactos para un lote de NIT: ${err.message}`);
+    }
+    await sleep(300);
+  }
+
+  return contactsByNit;
+}
+
+// Enriquece cada lead con datos de contacto reales cruzando su NIT (via entidadNitMap) contra
+// el directorio oficial de entidades de SECOP II. Solo escribe campos que vinieron con datos
+// verificados; nunca inventa un valor cuando la fuente no lo trae.
+async function enrichLeadsWithContacts(leads, entidadNitMap) {
+  const nits = leads.map((lead) => entidadNitMap.get(lead.nombre_entidad)).filter(Boolean);
+  if (nits.length === 0) return 0;
+
+  console.log(`   > Consultando directorio oficial de contactos SECOP II para ${nits.length} entidad(es)...`);
+  const contactsByNit = await fetchContactsForNits(nits);
+
+  let enrichedCount = 0;
+  for (const lead of leads) {
+    const nit = entidadNitMap.get(lead.nombre_entidad);
+    const record = nit ? contactsByNit.get(nit) : null;
+    if (!record) continue;
+
+    const pagina_web = normalizeWebsite(record.website);
+    const email_contacto = normalizeEmail(record.correo_electronico) || normalizeEmail(record.correo_representante_legal);
+    const telefono_contacto = normalizePhone(record.numero_fax);
+    const contacto_persona = normalizeContactPerson(record.nombre_representante_legal, lead.nombre_entidad);
+
+    if (!pagina_web && !email_contacto && !telefono_contacto && !contacto_persona) continue;
+
+    lead.pagina_web = pagina_web || lead.pagina_web;
+    lead.email_contacto = email_contacto || lead.email_contacto;
+    lead.telefono_contacto = telefono_contacto || lead.telefono_contacto;
+    lead.contacto_persona = contacto_persona || lead.contacto_persona;
+    lead.cargo_contacto = contacto_persona ? 'Representante Legal' : lead.cargo_contacto;
+    lead.observaciones_agente = lead.observaciones_agente.includes(NO_CONTACT_NOTE)
+      ? lead.observaciones_agente.replace(NO_CONTACT_NOTE, VERIFIED_CONTACT_NOTE)
+      : `${lead.observaciones_agente} ${VERIFIED_CONTACT_NOTE}`;
+    enrichedCount += 1;
+  }
+
+  return enrichedCount;
 }
 
 const main = async () => {
@@ -339,6 +496,9 @@ const main = async () => {
   }
 
   let convocatorias = [];
+  // Mapa nombre de entidad (ya limpio) -> NIT, usado luego para cruzar cada lead contra el
+  // directorio oficial de contactos de SECOP II sin tener que exponer el NIT en convocatorias.json.
+  const entidadNitMap = new Map();
   for (const record of rawById.values()) {
     const pubDate = new Date(record.fecha_de_publicacion_del || 0).getTime();
     if (pubDate && pubDate < cutoff) continue;
@@ -346,7 +506,12 @@ const main = async () => {
     const matchedTerms = matchSearchTerms(record);
     if (matchedTerms.length === 0) continue; // red de seguridad: descarta falsos positivos del texto libre
 
-    convocatorias.push(buildConvocatoria(record, matchedTerms));
+    const convocatoria = buildConvocatoria(record, matchedTerms);
+    convocatorias.push(convocatoria);
+
+    if (record.nit_entidad && record.nit_entidad !== 'No Definido' && !entidadNitMap.has(convocatoria.entidad)) {
+      entidadNitMap.set(convocatoria.entidad, String(record.nit_entidad));
+    }
   }
 
   const estadoPriority = { abierta: 3, 'próxima a cerrar': 2, cerrada: 1 };
@@ -356,9 +521,17 @@ const main = async () => {
     return b.fecha_publicacion.localeCompare(a.fecha_publicacion);
   };
 
-  convocatorias = selectWithModalityQuota(convocatorias, byEstadoThenFecha, MAX_CONVOCATORIAS, MIN_PER_NON_INVITACION_TIPO);
+  convocatorias = selectWithModalityQuota(convocatorias, byEstadoThenFecha, MAX_CONVOCATORIAS, MIN_PER_SPECIAL_TIPO);
 
   const leads = buildLeads(convocatorias);
+
+  let enrichedCount = 0;
+  try {
+    enrichedCount = await enrichLeadsWithContacts(leads, entidadNitMap);
+  } catch (err) {
+    console.warn(`   ! Fallo el enriquecimiento de contactos de leads: ${err.message}`);
+  }
+
 
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
   const dataPath = path.join(__dirname, '..', 'data');
@@ -383,6 +556,7 @@ const main = async () => {
   console.log(`   > Por estado: ${JSON.stringify(estadoCounts)}`);
   console.log(`   > Por tipo de oportunidad: ${JSON.stringify(tipoCounts)}`);
   console.log(`✅ Generación de Leads OSE: ${leads.length} posibles clientes identificados y guardados en ${leadsOut}`);
+  console.log(`   > Contactos verificados: ${enrichedCount}/${leads.length} leads enriquecidos con datos del Directorio de Entidades SECOP II.`);
 };
 
 main().catch((err) => {

@@ -6,7 +6,8 @@ export const Header = () => {
   const {
     filters, setFilters, leadsFilters, setLeadsFilters, theme, toggleTheme,
     searchMode, setSearchMode, activeTab, setActiveTab,
-    runScraper, scraperRunning, scraperError
+    runScraper, scraperRunning, scraperError,
+    isMobileFiltersOpen, setIsMobileFiltersOpen
   } = useAppContext();
 
   const handleGlobalSearch = (e) => {
@@ -18,63 +19,55 @@ export const Header = () => {
   };
 
   return (
-    <header className="header" style={{
-      borderBottom: '1px solid var(--border-color)',
-      padding: '1rem 2rem',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      background: 'var(--bg-secondary)',
-      zIndex: 10
-    }}>
-      <div className="header-brand" style={{ display: 'flex', alignItems: 'center', gap: '1rem', minWidth: '250px' }}>
+    <header className="header">
+      <div className="header-brand">
         <Activity size={28} color="var(--accent-base)" />
         <div>
           <h1 style={{ fontSize: '1.25rem', marginBottom: '0.1rem', color: 'var(--text-primary)' }}>ConvocatoriasTRD<span style={{color: 'var(--accent-base)'}}>Explorer</span><span style={{color: '#F59E0B', fontWeight: 800}}>MPI</span></h1>
-          <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>Buscador inteligente & Perfilamiento MPI</p>
+          <p className="header-tagline" style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>Buscador inteligente & Perfilamiento MPI</p>
         </div>
       </div>
 
-      <div style={{ flex: 1, display: 'flex', justifyContent: 'center', gap: '2rem', alignItems: 'center' }}>
-        
+      <div className="header-center">
+
         {/* Module Nav Toggles */}
         <div className="segmented-control feature-nav">
-          <button 
-            className={activeTab === 'convocatorias' ? 'active' : ''} 
+          <button
+            className={activeTab === 'convocatorias' ? 'active' : ''}
             onClick={() => setActiveTab('convocatorias')}
           >
             Convocatorias
           </button>
-          <button 
-            className={activeTab === 'leads' ? 'active' : ''} 
+          <button
+            className={activeTab === 'leads' ? 'active' : ''}
             onClick={() => setActiveTab('leads')}
             style={{ fontWeight: 600 }}
           >
             Clientes Potenciales
           </button>
         </div>
-        
+
         {/* Enfoque / Search Mode Toggle */}
         <div className="segmented-control">
-          <button 
-            className={searchMode === 'General' ? 'active' : ''} 
+          <button
+            className={searchMode === 'General' ? 'active' : ''}
             onClick={() => setSearchMode('General')}
           >
             Modo General
           </button>
-          <button 
-            className={searchMode === 'MPI LTDA' ? 'active' : ''} 
+          <button
+            className={searchMode === 'MPI LTDA' ? 'active' : ''}
             onClick={() => setSearchMode('MPI LTDA')}
           >
             MPI LTDA Focus
           </button>
         </div>
 
-        <div className="header-search" style={{ position: 'relative', width: '100%', maxWidth: '400px' }}>
+        <div className="header-search">
           <Search size={20} color="var(--text-muted)" style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)' }} />
-          <input 
-            type="text" 
-            className="input-field" 
+          <input
+            type="text"
+            className="input-field"
             placeholder={activeTab === 'convocatorias' ? "Buscar por nombre, entidad, país..." : "Buscar por nombre, sector, ciudad o necesidad..."}
             style={{ paddingLeft: '3rem', borderRadius: '50px', background: 'var(--bg-tertiary)' }}
             value={activeTab === 'convocatorias' ? filters.globalSearch : leadsFilters.globalSearch}
@@ -83,7 +76,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="header-actions" style={{ display: 'flex', gap: '1rem', alignItems: 'center', minWidth: '150px', justifyContent: 'flex-end' }}>
+      <div className="header-actions">
         <button
           className="btn btn-outline"
           style={{ fontSize: '0.8rem', padding: '0.5rem 1rem' }}
@@ -92,15 +85,19 @@ export const Header = () => {
           title={scraperError ? `Último error: ${scraperError}` : 'Buscar convocatorias reales en SECOP II'}
         >
           <RefreshCw size={16} className={scraperRunning ? 'spin' : ''} />
-          {scraperRunning ? 'Buscando...' : 'Actualizar Búsqueda'}
+          <span className="btn-refresh-label">{scraperRunning ? 'Buscando...' : 'Actualizar Búsqueda'}</span>
         </button>
         <button className="btn-icon" onClick={toggleTheme} title="Alternar Modo Oscuro/Claro">
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </button>
-        <button className="btn-icon">
+        <button className="btn-icon header-bell">
           <Bell size={20} />
         </button>
-        <button className="btn-icon">
+        <button
+          className="btn-icon header-filters-toggle"
+          onClick={() => setIsMobileFiltersOpen(!isMobileFiltersOpen)}
+          title="Mostrar/ocultar filtros"
+        >
           <Menu size={20} />
         </button>
       </div>

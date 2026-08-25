@@ -1,4 +1,16 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
+
+const PLACEHOLDER_CIUDADES = new Set(['no especificada', 'no especificado', '']);
+
+// Ciudades reales presentes en los datos (no una lista estática precargada de municipios),
+// así el filtro siempre refleja lo que realmente hay para elegir y nunca ofrece una ciudad vacía.
+const extractCiudadesColombia = (items) =>
+  [...new Set(
+    items
+      .filter((item) => item.pais === 'Colombia')
+      .map((item) => item.ciudad)
+      .filter((ciudad) => ciudad && !PLACEHOLDER_CIUDADES.has(ciudad.toLowerCase()))
+  )].sort((a, b) => a.localeCompare(b, 'es'));
 
 const AppContext = createContext();
 
@@ -29,6 +41,7 @@ export const AppProvider = ({ children }) => {
     globalSearch: '',
     nombre: '',
     pais: '',
+    ciudad: '',
     empresa: '',
     entidad: '',
     tipoOportunidad: '',
@@ -69,9 +82,14 @@ export const AppProvider = ({ children }) => {
     return saved ? new Set(JSON.parse(saved)) : new Set();
   });
 
+  const ciudadesColombia = useMemo(() => extractCiudadesColombia(data), [data]);
+  const ciudadesColombiaLeads = useMemo(() => extractCiudadesColombia(leadsData), [leadsData]);
+
   const [isGridMode, setIsGridMode] = useState(true);
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedLead, setSelectedLead] = useState(null);
+  // Controla el drawer de filtros en viewports móviles/tablet (ver SidebarFilters y Header).
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
   // Load backend data
   useEffect(() => {
@@ -178,6 +196,7 @@ export const AppProvider = ({ children }) => {
     // Exact Filters
     if (filters.nombre && !item.titulo.toLowerCase().includes(filters.nombre.toLowerCase())) return false;
     if (filters.pais && item.pais !== filters.pais) return false;
+    if (filters.ciudad && item.ciudad !== filters.ciudad) return false;
     if (filters.empresa && !item.empresa.toLowerCase().includes(filters.empresa.toLowerCase())) return false;
     if (filters.entidad && !item.entidad.toLowerCase().includes(filters.entidad.toLowerCase())) return false;
     if (filters.tipoOportunidad && item.tipo_oportunidad !== filters.tipoOportunidad) return false;
@@ -288,7 +307,11 @@ export const AppProvider = ({ children }) => {
       selectedLead,
       setSelectedLead,
       leadsSortOrder,
-      setLeadsSortOrder
+      setLeadsSortOrder,
+      ciudadesColombia,
+      ciudadesColombiaLeads,
+      isMobileFiltersOpen,
+      setIsMobileFiltersOpen
     }}>
       {children}
     </AppContext.Provider>
