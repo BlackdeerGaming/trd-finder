@@ -38,6 +38,25 @@
     "observaciones_agente": "Detectada a partir de 3 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: fecha no disponible. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
   },
   {
+    "id": "lead-unidad-administrativa-especial-de-gestion-de-restitucion-de-tierras-despojadas",
+    "nombre_entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS",
+    "tipo_entidad": "Pública",
+    "sector": "Gobierno Nacional",
+    "pais": "Colombia",
+    "ciudad": "Bogotá",
+    "descripcion": "Entidad pública que ha publicado 3 procesos de contratación relacionados con gestión documental, archivo o TRD en SECOP II.",
+    "posible_necesidad": "Gestión Documental",
+    "nivel_oportunidad": "alto",
+    "fuente_detectada": "SECOP II · Datos Abiertos Colombia",
+    "pagina_web": null,
+    "email_contacto": "servicioalciudadano@unidadvictimas.gov.co",
+    "telefono_contacto": null,
+    "linkedin_empresa": null,
+    "contacto_persona": "PEDRO FABIAN DAVALOS HERNANDEZ",
+    "cargo_contacto": "Representante Legal",
+    "observaciones_agente": "Detectada a partir de 3 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2026-05-25. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
+  },
+  {
     "id": "lead-gobernacion-del-caqueta",
     "nombre_entidad": "GOBERNACION DEL CAQUETA",
     "tipo_entidad": "Pública",
@@ -74,25 +93,6 @@
     "contacto_persona": "Jefferson Alonso castro romero",
     "cargo_contacto": "Representante Legal",
     "observaciones_agente": "Detectada a partir de 5 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: fecha no disponible. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
-  },
-  {
-    "id": "lead-unidad-administrativa-especial-de-gestion-de-restitucion-de-tierras-despojadas",
-    "nombre_entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS",
-    "tipo_entidad": "Pública",
-    "sector": "Gobierno Nacional",
-    "pais": "Colombia",
-    "ciudad": "Bogotá",
-    "descripcion": "Entidad pública que ha publicado 3 procesos de contratación relacionados con gestión documental, archivo o TRD en SECOP II.",
-    "posible_necesidad": "Gestión Documental",
-    "nivel_oportunidad": "alto",
-    "fuente_detectada": "SECOP II · Datos Abiertos Colombia",
-    "pagina_web": null,
-    "email_contacto": "servicioalciudadano@unidadvictimas.gov.co",
-    "telefono_contacto": null,
-    "linkedin_empresa": null,
-    "contacto_persona": "PEDRO FABIAN DAVALOS HERNANDEZ",
-    "cargo_contacto": "Representante Legal",
-    "observaciones_agente": "Detectada a partir de 3 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2026-05-25. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
   },
   {
     "id": "lead-universidad-surcolombiana",
@@ -285,25 +285,6 @@
     "observaciones_agente": "Detectada a partir de 2 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2026-07-28. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
   },
   {
-    "id": "lead-alcald-a-distrital-de-santa-marta",
-    "nombre_entidad": "ALCALDÍA DISTRITAL DE SANTA MARTA",
-    "tipo_entidad": "Pública",
-    "sector": "Gobierno Territorial",
-    "pais": "Colombia",
-    "ciudad": "Santa Marta",
-    "descripcion": "Entidad pública que ha publicado 2 procesos de contratación relacionados con gestión documental, archivo o TRD en SECOP II.",
-    "posible_necesidad": "Gestión Documental",
-    "nivel_oportunidad": "medio",
-    "fuente_detectada": "SECOP II · Datos Abiertos Colombia",
-    "pagina_web": null,
-    "email_contacto": "atencionalciudadano@santamarta.gov.co",
-    "telefono_contacto": "54209600",
-    "linkedin_empresa": null,
-    "contacto_persona": "HECTOR JOSUE OVALLE PEREZ",
-    "cargo_contacto": "Representante Legal",
-    "observaciones_agente": "Detectada a partir de 2 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2026-06-24. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
-  },
-  {
     "id": "lead-instituto-de-financiamiento-promoci-n-y-desarrollo-de-manizales-infi-manizales",
     "nombre_entidad": "INSTITUTO DE FINANCIAMIENTO PROMOCIÓN Y DESARROLLO DE MANIZALES - INFI-MANIZALES",
     "tipo_entidad": "Pública",
@@ -378,5 +359,24 @@
     "contacto_persona": "EDWIN ORLANDO CARVAJAL GUTIERREZ",
     "cargo_contacto": "Representante Legal",
     "observaciones_agente": "Detectada a partir de 2 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2025-07-11. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
+  },
+  {
+    "id": "lead-servicio-geologico-colombiano",
+    "nombre_entidad": "SERVICIO GEOLOGICO COLOMBIANO",
+    "tipo_entidad": "Pública",
+    "sector": "Sector Público",
+    "pais": "Colombia",
+    "ciudad": "Bogotá",
+    "descripcion": "Entidad pública que ha publicado 2 procesos de contratación relacionados con gestión documental, archivo o TRD en SECOP II.",
+    "posible_necesidad": "Gestión Documental",
+    "nivel_oportunidad": "medio",
+    "fuente_detectada": "SECOP II · Datos Abiertos Colombia",
+    "pagina_web": null,
+    "email_contacto": "jorgerosero24@outlook.com",
+    "telefono_contacto": null,
+    "linkedin_empresa": null,
+    "contacto_persona": "Jorge Alirio Rosero Pantoja",
+    "cargo_contacto": "Representante Legal",
+    "observaciones_agente": "Detectada a partir de 2 procesos reales de contratación pública relacionados con gestión documental/archivo. Última publicación detectada: 2025-07-03. Datos de contacto verificados en el Directorio de Entidades y Proveedores de SECOP II (Datos Abiertos Colombia)."
   }
 ]
