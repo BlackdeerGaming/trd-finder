@@ -101,38 +101,6 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, custodia documental. Publicado por INSTITUTO NACIONAL DE VIGILANCIA DE MEDICAMENTOS Y ALIMENTOS."
   },
   {
-    "id": "secop-CO1.REQ.1869080",
-    "titulo": "CUSTODIA DOCUMENTAL",
-    "nombre_convocatoria": "006 2 de marzo",
-    "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL -DEPARTAMENTO ADMINISTRATIVO DE DESARROLLO E INNOVACION INSTITUCIONAL",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Valle del Cauca",
-    "ciudad": "Cali",
-    "tipo_oportunidad": "solicitud de información",
-    "descripcion_resumida": "CONTRATAR LA PRESTACIÓN DE SERVICIOS DE TENENCIA, CUSTODIA, GUARDA Y TRANSPORTE DE LOS ARCHIVOS INACTIVOS DE CALISALUD EPS, EL FONDO FINANCIERO ESPECIALIZADO (BANCALI) Y GIRASOL S.A. E.I.C.E. LIQUIDADA, CUMPLIENDO CON...",
-    "descripcion_completa": "CONTRATAR LA PRESTACIÓN DE SERVICIOS DE TENENCIA, CUSTODIA, GUARDA Y TRANSPORTE DE LOS ARCHIVOS INACTIVOS DE CALISALUD EPS, EL FONDO FINANCIERO ESPECIALIZADO (BANCALI) Y GIRASOL S.A. E.I.C.E. LIQUIDADA, CUMPLIENDO CON LAS NORMAS ARCHIVÍSTICAS NACIONALES GARANTIZANDO SU SALVAGUARDA. en el marco del proyecto de inversión denominado  APLICACION DE LA LEY GENERAL DE ARCHIVO AL PATRIMONIO DOCUMENTAL EN LA ALCALDIA DE CALI .",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "2021-03-09",
-    "estado": "abierta",
-    "presupuesto": 0,
-    "requisitos_principales": [
-      "Modalidad de contratación: Solicitud de información a los Proveedores",
-      "Duración estimada: 8 Mes(es)",
-      "Categoría UNSPSC: V1.78131800"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Custodia Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: custodia documental. Publicado por SANTIAGO DE CALI DISTRITO ESPECIAL -DEPARTAMENTO ADMINISTRATIVO DE DESARROLLO E INNOVACION INSTITUCIONAL."
-  },
-  {
     "id": "secop-CO1.REQ.10746010",
     "titulo": "Tablas de Valoración Documental",
     "nombre_convocatoria": "MJD-SASI-006-2026",
@@ -164,6 +132,38 @@
       "Inventario Documental"
     ],
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: custodia documental, inventario documental. Publicado por MINISTERIO DE JUSTICIA Y DEL DERECHO..."
+  },
+  {
+    "id": "secop-CO1.REQ.1869080",
+    "titulo": "CUSTODIA DOCUMENTAL",
+    "nombre_convocatoria": "006 2 de marzo",
+    "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL -DEPARTAMENTO ADMINISTRATIVO DE DESARROLLO E INNOVACION INSTITUCIONAL",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Valle del Cauca",
+    "ciudad": "Cali",
+    "tipo_oportunidad": "solicitud de información",
+    "descripcion_resumida": "CONTRATAR LA PRESTACIÓN DE SERVICIOS DE TENENCIA, CUSTODIA, GUARDA Y TRANSPORTE DE LOS ARCHIVOS INACTIVOS DE CALISALUD EPS, EL FONDO FINANCIERO ESPECIALIZADO (BANCALI) Y GIRASOL S.A. E.I.C.E. LIQUIDADA, CUMPLIENDO CON...",
+    "descripcion_completa": "CONTRATAR LA PRESTACIÓN DE SERVICIOS DE TENENCIA, CUSTODIA, GUARDA Y TRANSPORTE DE LOS ARCHIVOS INACTIVOS DE CALISALUD EPS, EL FONDO FINANCIERO ESPECIALIZADO (BANCALI) Y GIRASOL S.A. E.I.C.E. LIQUIDADA, CUMPLIENDO CON LAS NORMAS ARCHIVÍSTICAS NACIONALES GARANTIZANDO SU SALVAGUARDA. en el marco del proyecto de inversión denominado  APLICACION DE LA LEY GENERAL DE ARCHIVO AL PATRIMONIO DOCUMENTAL EN LA ALCALDIA DE CALI .",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "2021-03-09",
+    "estado": "abierta",
+    "presupuesto": 0,
+    "requisitos_principales": [
+      "Modalidad de contratación: Solicitud de información a los Proveedores",
+      "Duración estimada: 8 Mes(es)",
+      "Categoría UNSPSC: V1.78131800"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Custodia Documental"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: custodia documental. Publicado por SANTIAGO DE CALI DISTRITO ESPECIAL -DEPARTAMENTO ADMINISTRATIVO DE DESARROLLO E INNOVACION INSTITUCIONAL."
   },
   {
     "id": "secop-CO1.REQ.10363006",
@@ -300,40 +300,6 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por UNIVERSIDAD DE NARIÑO."
   },
   {
-    "id": "secop-CO1.REQ.10822635",
-    "titulo": "PRESTACION DE SERVICIOS",
-    "nombre_convocatoria": "CDPS-URT-3157-202",
-    "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS",
-    "empresa": "Sector Público (Orden Nacional)",
-    "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "Bogotá",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestar sus servicios de apoyo a la gestión con plena autonomía técnica y administrativa, desde el Grupo de Gestión Documental Archivo y Memoria Histórica, para realizar las actividades básicas del archivo de la Unida...",
-    "descripcion_completa": "Prestar sus servicios de apoyo a la gestión con plena autonomía técnica y administrativa, desde el Grupo de Gestión Documental Archivo y Memoria Histórica, para realizar las actividades básicas del archivo de la Unidad de Restitución de Tierras, colaborando en el manejo físico y el registro elemental de documentos y expedientes para favorecer  en la administración, organización, conservación y consulta, bajo orientación de la supervisión y conforme a los lineamientos internos y a los instrumento",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 6602700,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 3 Mes(es)",
-      "Categoría UNSPSC: V1.80111701"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "alta",
-    "afinidad_mpi": "alta",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo",
-      "Organización Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos. Publicado por UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS."
-  },
-  {
     "id": "secop-CO1.REQ.2695623",
     "titulo": "Prestación de servicios",
     "nombre_convocatoria": "CD_2022_064",
@@ -365,39 +331,6 @@
       "Archivo"
     ],
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por PERSONERIA DISTRITAL DE MEDELLIN."
-  },
-  {
-    "id": "secop-CO1.REQ.10378113",
-    "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "nombre_convocatoria": "0982-2026",
-    "entidad": "EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Atlántico",
-    "ciudad": "Barranquilla",
-    "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 12500000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 5 Mes(es)",
-      "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234906",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
   },
   {
     "id": "secop-CO1.REQ.2563455",
@@ -433,39 +366,6 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por MUNICIPIO DE BUCARAMANGA."
   },
   {
-    "id": "secop-CO1.REQ.4219675",
-    "titulo": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION",
-    "nombre_convocatoria": "SDI-1800-844-2023",
-    "entidad": "ALCALDIA MUNICIPAL DE BUGA",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Valle del Cauca",
-    "ciudad": "Guadalajara De Buga",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "PRESTACIÓN DE SERVICIOS PERSONALES DE CARÁCTER TEMPORAL PARA EL APOYO A LA GESTIÓN EN EL PROCESO DE GESTIÓN DOCUMENTAL DEL ARCHIVO CENTRAL DE LA ALCALDÍA MUNICIPAL DE GUADALAJARA DE BUGA.",
-    "descripcion_completa": "PRESTACIÓN DE SERVICIOS PERSONALES DE CARÁCTER TEMPORAL PARA EL APOYO A LA GESTIÓN EN EL PROCESO DE GESTIÓN DOCUMENTAL DEL ARCHIVO CENTRAL DE LA ALCALDÍA MUNICIPAL DE GUADALAJARA DE BUGA.",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 8400000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 6 Mes(es)",
-      "Categoría UNSPSC: V1.80111620"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ALCALDIA MUNICIPAL DE BUGA."
-  },
-  {
     "id": "secop-CO1.REQ.10378054",
     "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
     "nombre_convocatoria": "0985-2026",
@@ -499,27 +399,27 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
   },
   {
-    "id": "secop-CO1.REQ.10385587",
-    "titulo": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA; CUMPLIENDO LA NORMATIVIDAD ARCH",
-    "nombre_convocatoria": "363-2026",
-    "entidad": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN ANTONIO DE SESQUILE",
+    "id": "secop-CO1.REQ.5722590",
+    "titulo": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA; EN LO  RELACIONADO  CON  LA  ELABORACION;  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  L",
+    "nombre_convocatoria": "SDIS-CPS-306990-2024",
+    "entidad": "(Secretaría Distrital de Integración Social)",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "No especificado",
+    "departamento": "Distrito Capital de Bogotá",
     "ciudad": "No especificada",
-    "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA, CUMPLIENDO LA NORMATIVIDAD ARCHIVISTICA EMITIDA ...",
-    "descripcion_completa": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA, CUMPLIENDO LA NORMATIVIDAD ARCHIVISTICA EMITIDA POR EL ARCHIVO GENERAL DE LA NACION",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA, EN LO RELACIONADO  CON  LA  ELABORACION,  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  LOS  INSTRUMENTOS  ...",
+    "descripcion_completa": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA, EN LO RELACIONADO  CON  LA  ELABORACION,  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  LOS  INSTRUMENTOS  ARCHIVISTICOS  ,  ASI COMO  DEL  APOYO  EN  LA  ORIENTACION  EN  EL  LEVANTAMIENTO  DE  INVENTARIOS  DOCUMENTALES  DE  LOS  FONDOS  ACUMULADOS  QUE  SE ENCUENTRAN EN EL ACERVO DOCUMENTAL DE LA ENTIDAD",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 5824000,
+    "presupuesto": 46190250,
     "requisitos_principales": [
-      "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 2 Mes(es)",
-      "Categoría UNSPSC: V1.80111600"
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 9 Mes(es)",
+      "Categoría UNSPSC: V1.80111500"
     ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10242186",
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
     "enlace_pdf": null,
     "tipo_enlace": "pagina_convocatoria",
     "fuente": "SECOP II · Datos Abiertos Colombia",
@@ -527,30 +427,31 @@
     "afinidad_mpi": "media",
     "etiquetas": [
       "Gestión Documental",
-      "Archivo"
+      "Archivo",
+      "Inventario Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN ANTONIO DE SESQUILE."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, inventario documental. Publicado por (Secretaría Distrital de Integración Social)."
   },
   {
-    "id": "secop-CO1.REQ.8957588",
-    "titulo": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
-    "nombre_convocatoria": "AAA-034-2025",
-    "entidad": "ALCALDIA MUNICIPIO DE LETICIA",
-    "empresa": "Sector Público (Orden Territorial)",
+    "id": "secop-CO1.REQ.3304191",
+    "titulo": "Apoyos administrativos DOP",
+    "nombre_convocatoria": "ADRES-CD-183-2022",
+    "entidad": "ADRES",
+    "empresa": "Sector Público (Orden Nacional)",
     "pais": "Colombia",
-    "departamento": "Amazonas",
-    "ciudad": "Leticia",
-    "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
-    "descripcion_completa": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "No especificada",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "Prestar los servicios de apoyo administrativo y de gestión documental con el fin de depurar, clasificar, organizar y hacer transferencias del archivo de la Dirección de Otras Prestaciones, al archivo central de ADRES,...",
+    "descripcion_completa": "Prestar los servicios de apoyo administrativo y de gestión documental con el fin de depurar, clasificar, organizar y hacer transferencias del archivo de la Dirección de Otras Prestaciones, al archivo central de ADRES, apoyándose en el procedimiento de Gestion Documental establecido por la Entidad.",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 13172000,
+    "presupuesto": 31566968,
     "requisitos_principales": [
-      "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 178 día(s)",
-      "Categoría UNSPSC: V1.80111601"
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 4 Mes(es)",
+      "Categoría UNSPSC: V1.93151501"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
     "enlace_pdf": null,
@@ -562,7 +463,74 @@
       "Gestión Documental",
       "Archivo"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ALCALDIA MUNICIPIO DE LETICIA."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ADRES."
+  },
+  {
+    "id": "secop-CO1.REQ.10822635",
+    "titulo": "PRESTACION DE SERVICIOS",
+    "nombre_convocatoria": "CDPS-URT-3157-202",
+    "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS",
+    "empresa": "Sector Público (Orden Nacional)",
+    "pais": "Colombia",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "Bogotá",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "Prestar sus servicios de apoyo a la gestión con plena autonomía técnica y administrativa, desde el Grupo de Gestión Documental Archivo y Memoria Histórica, para realizar las actividades básicas del archivo de la Unida...",
+    "descripcion_completa": "Prestar sus servicios de apoyo a la gestión con plena autonomía técnica y administrativa, desde el Grupo de Gestión Documental Archivo y Memoria Histórica, para realizar las actividades básicas del archivo de la Unidad de Restitución de Tierras, colaborando en el manejo físico y el registro elemental de documentos y expedientes para favorecer  en la administración, organización, conservación y consulta, bajo orientación de la supervisión y conforme a los lineamientos internos y a los instrumento",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 6602700,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 3 Mes(es)",
+      "Categoría UNSPSC: V1.80111701"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "alta",
+    "afinidad_mpi": "alta",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo",
+      "Organización Documental"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos. Publicado por UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS."
+  },
+  {
+    "id": "secop-CO1.REQ.10378113",
+    "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
+    "nombre_convocatoria": "0982-2026",
+    "entidad": "EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Atlántico",
+    "ciudad": "Barranquilla",
+    "tipo_oportunidad": "régimen especial",
+    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
+    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 12500000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación régimen especial",
+      "Duración estimada: 5 Mes(es)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234906",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
   },
   {
     "id": "secop-CO1.REQ.3731310",
@@ -601,9 +569,108 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, digitalizacion de archivo, organizacion de archivos, foliacion de archivo. Publicado por Sena - Centro Agropecuario de Buga."
   },
   {
-    "id": "secop-CO1.REQ.10378052",
+    "id": "secop-CO1.REQ.9865722",
+    "titulo": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central; conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
+    "nombre_convocatoria": "CPS-332-A2026",
+    "entidad": "Universidad Surcolombiana",
+    "empresa": "Sector Público (Orden Nacional)",
+    "pais": "Colombia",
+    "departamento": "Huila",
+    "ciudad": "Neiva",
+    "tipo_oportunidad": "régimen especial",
+    "descripcion_resumida": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central, conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
+    "descripcion_completa": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central, conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 3000000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación régimen especial",
+      "Duración estimada: 0 día(s)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9713116",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por Universidad Surcolombiana."
+  },
+  {
+    "id": "secop-CO1.REQ.8957588",
+    "titulo": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
+    "nombre_convocatoria": "AAA-034-2025",
+    "entidad": "ALCALDIA MUNICIPIO DE LETICIA",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Amazonas",
+    "ciudad": "Leticia",
+    "tipo_oportunidad": "régimen especial",
+    "descripcion_resumida": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
+    "descripcion_completa": "PRESTACIÓN DE SERVICIOS DE UN TECNICO CON EXPERIENCIA PARA APOYAR LA GESTION DOCUMENTAL EN EL AREA DE ARCHIVO GENERAL DE LA USPDL",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 13172000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación régimen especial",
+      "Duración estimada: 178 día(s)",
+      "Categoría UNSPSC: V1.80111601"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ALCALDIA MUNICIPIO DE LETICIA."
+  },
+  {
+    "id": "secop-CO1.REQ.10385587",
+    "titulo": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA; CUMPLIENDO LA NORMATIVIDAD ARCH",
+    "nombre_convocatoria": "363-2026",
+    "entidad": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN ANTONIO DE SESQUILE",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "No especificado",
+    "ciudad": "No especificada",
+    "tipo_oportunidad": "régimen especial",
+    "descripcion_resumida": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA, CUMPLIENDO LA NORMATIVIDAD ARCHIVISTICA EMITIDA ...",
+    "descripcion_completa": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO DEL PROCESO DE GESTION DOCUMENTAL DE LA E.S.E HOSPITAL SAN ANTONIO DE SESQUILE Y PUESTO DE SALUD DE GACHANCIPA, CUMPLIENDO LA NORMATIVIDAD ARCHIVISTICA EMITIDA POR EL ARCHIVO GENERAL DE LA NACION",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 5824000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación régimen especial",
+      "Duración estimada: 2 Mes(es)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10242186",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN ANTONIO DE SESQUILE."
+  },
+  {
+    "id": "secop-CO1.REQ.10378212",
     "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "nombre_convocatoria": "0984-2026",
+    "nombre_convocatoria": "0987-2026",
     "entidad": "EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
@@ -621,7 +688,7 @@
       "Duración estimada: 5 Mes(es)",
       "Categoría UNSPSC: V1.80111600"
     ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234647",
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234815",
     "enlace_pdf": null,
     "tipo_enlace": "pagina_convocatoria",
     "fuente": "SECOP II · Datos Abiertos Colombia",
@@ -668,39 +735,6 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, foliacion de archivo. Publicado por (Secretaría Distrital de Integración Social)."
   },
   {
-    "id": "secop-CO1.REQ.10378212",
-    "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "nombre_convocatoria": "0987-2026",
-    "entidad": "EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Atlántico",
-    "ciudad": "Barranquilla",
-    "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 12500000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 5 Mes(es)",
-      "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234815",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
-  },
-  {
     "id": "secop-CO1.REQ.10348620",
     "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
     "nombre_convocatoria": "0814-2026",
@@ -734,58 +768,25 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
   },
   {
-    "id": "secop-CO1.REQ.3304191",
-    "titulo": "Apoyos administrativos DOP",
-    "nombre_convocatoria": "ADRES-CD-183-2022",
-    "entidad": "ADRES",
-    "empresa": "Sector Público (Orden Nacional)",
-    "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "No especificada",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestar los servicios de apoyo administrativo y de gestión documental con el fin de depurar, clasificar, organizar y hacer transferencias del archivo de la Dirección de Otras Prestaciones, al archivo central de ADRES,...",
-    "descripcion_completa": "Prestar los servicios de apoyo administrativo y de gestión documental con el fin de depurar, clasificar, organizar y hacer transferencias del archivo de la Dirección de Otras Prestaciones, al archivo central de ADRES, apoyándose en el procedimiento de Gestion Documental establecido por la Entidad.",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 31566968,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 4 Mes(es)",
-      "Categoría UNSPSC: V1.93151501"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ADRES."
-  },
-  {
-    "id": "secop-CO1.REQ.5722590",
-    "titulo": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA; EN LO  RELACIONADO  CON  LA  ELABORACION;  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  L",
-    "nombre_convocatoria": "SDIS-CPS-306990-2024",
-    "entidad": "(Secretaría Distrital de Integración Social)",
+    "id": "secop-CO1.REQ.4219675",
+    "titulo": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION",
+    "nombre_convocatoria": "SDI-1800-844-2023",
+    "entidad": "ALCALDIA MUNICIPAL DE BUGA",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "No especificada",
+    "departamento": "Valle del Cauca",
+    "ciudad": "Guadalajara De Buga",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA, EN LO RELACIONADO  CON  LA  ELABORACION,  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  LOS  INSTRUMENTOS  ...",
-    "descripcion_completa": "PRESTAR SERVICIOS PROFESIONALES DESDE EL SUBSISTEMA INTERNO DE GESTION DOCUMENTAL Y ARCHIVO SIGA, EN LO RELACIONADO  CON  LA  ELABORACION,  ACTUALIZACION  Y  SEGUIMIENTO  A  LA  IMPLEMENTACION  DE  LOS  INSTRUMENTOS  ARCHIVISTICOS  ,  ASI COMO  DEL  APOYO  EN  LA  ORIENTACION  EN  EL  LEVANTAMIENTO  DE  INVENTARIOS  DOCUMENTALES  DE  LOS  FONDOS  ACUMULADOS  QUE  SE ENCUENTRAN EN EL ACERVO DOCUMENTAL DE LA ENTIDAD",
+    "descripcion_resumida": "PRESTACIÓN DE SERVICIOS PERSONALES DE CARÁCTER TEMPORAL PARA EL APOYO A LA GESTIÓN EN EL PROCESO DE GESTIÓN DOCUMENTAL DEL ARCHIVO CENTRAL DE LA ALCALDÍA MUNICIPAL DE GUADALAJARA DE BUGA.",
+    "descripcion_completa": "PRESTACIÓN DE SERVICIOS PERSONALES DE CARÁCTER TEMPORAL PARA EL APOYO A LA GESTIÓN EN EL PROCESO DE GESTIÓN DOCUMENTAL DEL ARCHIVO CENTRAL DE LA ALCALDÍA MUNICIPAL DE GUADALAJARA DE BUGA.",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 46190250,
+    "presupuesto": 8400000,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 9 Mes(es)",
-      "Categoría UNSPSC: V1.80111500"
+      "Duración estimada: 6 Mes(es)",
+      "Categoría UNSPSC: V1.80111620"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
     "enlace_pdf": null,
@@ -795,33 +796,32 @@
     "afinidad_mpi": "media",
     "etiquetas": [
       "Gestión Documental",
-      "Archivo",
-      "Inventario Documental"
+      "Archivo"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, inventario documental. Publicado por (Secretaría Distrital de Integración Social)."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por ALCALDIA MUNICIPAL DE BUGA."
   },
   {
-    "id": "secop-CO1.REQ.9865722",
-    "titulo": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central; conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
-    "nombre_convocatoria": "CPS-332-A2026",
-    "entidad": "Universidad Surcolombiana",
-    "empresa": "Sector Público (Orden Nacional)",
+    "id": "secop-CO1.REQ.10378052",
+    "titulo": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
+    "nombre_convocatoria": "0984-2026",
+    "entidad": "EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO",
+    "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "Huila",
-    "ciudad": "Neiva",
+    "departamento": "Atlántico",
+    "ciudad": "Barranquilla",
     "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central, conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
-    "descripcion_completa": "Prestar servicios de apoyo tecnico administrativo al Area de Gestion Documental y Archivo Central, conforme a los lineamientos establecidos en la Universidad Surcolombiana.",
+    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
+    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO PARA EL PROCESO DE ARCHIVO DE LAS HISTORIAS CLINICAS Y GESTION DOCUMENTAL EN LA ESE UNIVERSITARIA DEL ATLANTICO",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 3000000,
+    "presupuesto": 12500000,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 0 día(s)",
+      "Duración estimada: 5 Mes(es)",
       "Categoría UNSPSC: V1.80111600"
     ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9713116",
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10234647",
     "enlace_pdf": null,
     "tipo_enlace": "pagina_convocatoria",
     "fuente": "SECOP II · Datos Abiertos Colombia",
@@ -831,7 +831,7 @@
       "Gestión Documental",
       "Archivo"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por Universidad Surcolombiana."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por EMPRESA SOCIAL DEL ESTADO UNIVERSITARIA DEL ATLANTICO."
   },
   {
     "id": "secop-CO1.REQ.757038",
@@ -1070,24 +1070,24 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos. Publicado por ALCALDIA MUNICIPIO DE LETICIA."
   },
   {
-    "id": "secop-CO1.REQ.3631921",
-    "titulo": "NESTOR ADOLFO TEJEDOR ROMERO",
-    "nombre_convocatoria": "CD-DPS-378-2022_2",
-    "entidad": "PROSPERIDAD SOCIAL",
-    "empresa": "Sector Público (Orden Nacional)",
+    "id": "secop-CO1.REQ.2730302",
+    "titulo": "PRESTACION DE SERVICIOS DE APOYO",
+    "nombre_convocatoria": "DG-34-2022-OFICINA COMUNICACIONES",
+    "entidad": "GOBERNACIÓN DE RISARALDA",
+    "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "Bogotá",
+    "departamento": "Risaralda",
+    "ciudad": "Pereira",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Apoyar a la OFICINA ASESORA DE COMUNICACIONES de PROSPERIDAD SOCIAL, en el cumplimiento de las actividades estratégicas con los grupos de interés internos para el fortalecimiento de la cultura organizacional de la ent...",
-    "descripcion_completa": "Apoyar a la OFICINA ASESORA DE COMUNICACIONES de PROSPERIDAD SOCIAL, en el cumplimiento de las actividades estratégicas con los grupos de interés internos para el fortalecimiento de la cultura organizacional de la entidad y en las actividades relacionadas con la producción, edición y archivo del material audiovisual y comunicativo del GIT de comunicaciones estratégicas por los diferentes canales de distribución",
+    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA LA REVISION, CLASIFICACION Y ORGANIZACION DEL ARCHIVO FISICO DE LA OFICINA ASESORA DE COMUNICACIONES DE LA ADMINISTRACION DEPARTAMENTAL, DE ACUERDO CON LAS NORMAS VIG...",
+    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA LA REVISION, CLASIFICACION Y ORGANIZACION DEL ARCHIVO FISICO DE LA OFICINA ASESORA DE COMUNICACIONES DE LA ADMINISTRACION DEPARTAMENTAL, DE ACUERDO CON LAS NORMAS VIGENTES",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 7625430,
+    "presupuesto": 21596893,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 44 día(s)",
+      "Duración estimada: 11 Mes(es)",
       "Categoría UNSPSC: V1.80111600"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
@@ -1099,7 +1099,39 @@
     "etiquetas": [
       "Organización Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por PROSPERIDAD SOCIAL."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACIÓN DE RISARALDA."
+  },
+  {
+    "id": "secop-CO1.REQ.1993790",
+    "titulo": "PRESTACIÓN DE SERVICIOS  DE POYO A LA GESTION",
+    "nombre_convocatoria": "CP",
+    "entidad": "GOBERNACION DE SUCRE",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Sucre",
+    "ciudad": "Sincelejo",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA EL TRAMITE DE ARCHIVO DE DOCUMENTOS PARA LA ORGANIZACION DE PROYECTOS DE INVERSION DE LA SECRETARIA DE DESARROLLO ECONOMICO Y MEDIO AMBIENTE DURANTE LA VIGENCIA 2021.",
+    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA EL TRAMITE DE ARCHIVO DE DOCUMENTOS PARA LA ORGANIZACION DE PROYECTOS DE INVERSION DE LA SECRETARIA DE DESARROLLO ECONOMICO Y MEDIO AMBIENTE DURANTE LA VIGENCIA 2021.",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 6400000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 4 Mes(es)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Organización Documental"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACION DE SUCRE."
   },
   {
     "id": "secop-CO1.REQ.10754186",
@@ -1136,24 +1168,24 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos. Publicado por SECRETARÍA DISTRITAL DE MOVILIDAD."
   },
   {
-    "id": "secop-CO1.REQ.2730302",
-    "titulo": "PRESTACION DE SERVICIOS DE APOYO",
-    "nombre_convocatoria": "DG-34-2022-OFICINA COMUNICACIONES",
-    "entidad": "GOBERNACIÓN DE RISARALDA",
-    "empresa": "Sector Público (Orden Territorial)",
+    "id": "secop-CO1.REQ.3631921",
+    "titulo": "NESTOR ADOLFO TEJEDOR ROMERO",
+    "nombre_convocatoria": "CD-DPS-378-2022_2",
+    "entidad": "PROSPERIDAD SOCIAL",
+    "empresa": "Sector Público (Orden Nacional)",
     "pais": "Colombia",
-    "departamento": "Risaralda",
-    "ciudad": "Pereira",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "Bogotá",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA LA REVISION, CLASIFICACION Y ORGANIZACION DEL ARCHIVO FISICO DE LA OFICINA ASESORA DE COMUNICACIONES DE LA ADMINISTRACION DEPARTAMENTAL, DE ACUERDO CON LAS NORMAS VIG...",
-    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA LA REVISION, CLASIFICACION Y ORGANIZACION DEL ARCHIVO FISICO DE LA OFICINA ASESORA DE COMUNICACIONES DE LA ADMINISTRACION DEPARTAMENTAL, DE ACUERDO CON LAS NORMAS VIGENTES",
+    "descripcion_resumida": "Apoyar a la OFICINA ASESORA DE COMUNICACIONES de PROSPERIDAD SOCIAL, en el cumplimiento de las actividades estratégicas con los grupos de interés internos para el fortalecimiento de la cultura organizacional de la ent...",
+    "descripcion_completa": "Apoyar a la OFICINA ASESORA DE COMUNICACIONES de PROSPERIDAD SOCIAL, en el cumplimiento de las actividades estratégicas con los grupos de interés internos para el fortalecimiento de la cultura organizacional de la entidad y en las actividades relacionadas con la producción, edición y archivo del material audiovisual y comunicativo del GIT de comunicaciones estratégicas por los diferentes canales de distribución",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 21596893,
+    "presupuesto": 7625430,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 11 Mes(es)",
+      "Duración estimada: 44 día(s)",
       "Categoría UNSPSC: V1.80111600"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
@@ -1165,71 +1197,42 @@
     "etiquetas": [
       "Organización Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACIÓN DE RISARALDA."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por PROSPERIDAD SOCIAL."
   },
   {
-    "id": "secop-CO1.REQ.2685956",
-    "titulo": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica.",
-    "nombre_convocatoria": "CD-OAJ-0000-2022",
-    "entidad": "GOBERNACIÓN DEL DEPARTAMENTO ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA",
+    "id": "secop-CO1.REQ.6922110",
+    "titulo": "JEFRI ANDRES NAVAS",
+    "nombre_convocatoria": "CD-SEG-JEFRI-2024",
+    "entidad": "Gobernación Norte de Santander",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "San Andrés, Providencia y Santa Catalina",
-    "ciudad": "San Andrés",
+    "departamento": "Norte de Santander",
+    "ciudad": "Cúcuta",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica, apoyandola en el manejo estrategico de la documentacion en custodia de la dependencia, asi como en el control de la misma, s...",
-    "descripcion_completa": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica, apoyandola en el manejo estrategico de la documentacion en custodia de la dependencia, asi como en el control de la misma, su compilacion y organizacion y tambien el apoyo en el archivo de la misma y en la expedicion de documentos administrativos.",
+    "descripcion_resumida": "Prestar los Servicios de Apoyo a la Gestión para la ejecución de actividades relacionadas con la organización de Archivos de Gestión a Plan de Mejoramiento ( PMA ), Ordenes Perentorias impuestas por el Archivo General...",
+    "descripcion_completa": "Prestar los Servicios de Apoyo a la Gestión para la ejecución de actividades relacionadas con la organización de Archivos de Gestión a Plan de Mejoramiento ( PMA ), Ordenes Perentorias impuestas por el Archivo General de la Nacion, Organizacion del archivo central de la entidad mediante actividades de Clasificación, Descripción, Inventario, transferencias y traslados documentales en el Archivo Central de la Gobernación del Departamento Norte de Santander.",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 15709875,
+    "presupuesto": 5500000,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 5 Mes(es)",
+      "Duración estimada: 75 día(s)",
       "Categoría UNSPSC: V1.80111600"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
     "enlace_pdf": null,
     "tipo_enlace": "pagina_convocatoria",
     "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
+    "relevancia": "alta",
+    "afinidad_mpi": "alta",
     "etiquetas": [
-      "Organización Documental"
+      "Gestión Documental",
+      "Archivo",
+      "Organización Documental",
+      "Inventario Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACIÓN DEL DEPARTAMENTO ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA."
-  },
-  {
-    "id": "secop-CO1.REQ.1993790",
-    "titulo": "PRESTACIÓN DE SERVICIOS  DE POYO A LA GESTION",
-    "nombre_convocatoria": "CP",
-    "entidad": "GOBERNACION DE SUCRE",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Sucre",
-    "ciudad": "Sincelejo",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA EL TRAMITE DE ARCHIVO DE DOCUMENTOS PARA LA ORGANIZACION DE PROYECTOS DE INVERSION DE LA SECRETARIA DE DESARROLLO ECONOMICO Y MEDIO AMBIENTE DURANTE LA VIGENCIA 2021.",
-    "descripcion_completa": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA EL TRAMITE DE ARCHIVO DE DOCUMENTOS PARA LA ORGANIZACION DE PROYECTOS DE INVERSION DE LA SECRETARIA DE DESARROLLO ECONOMICO Y MEDIO AMBIENTE DURANTE LA VIGENCIA 2021.",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 6400000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 4 Mes(es)",
-      "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "Organización Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACION DE SUCRE."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos, inventario documental. Publicado por Gobernación Norte de Santander."
   },
   {
     "id": "secop-CO1.REQ.10350496",
@@ -1330,95 +1333,25 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos, custodia documental, inventario documental. Publicado por ALIANZA PUBLICA PARA EL DESARROLLO INTEGRAL - COMPRADOR."
   },
   {
-    "id": "secop-CO1.REQ.6922110",
-    "titulo": "JEFRI ANDRES NAVAS",
-    "nombre_convocatoria": "CD-SEG-JEFRI-2024",
-    "entidad": "Gobernación Norte de Santander",
+    "id": "secop-CO1.REQ.2685956",
+    "titulo": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica.",
+    "nombre_convocatoria": "CD-OAJ-0000-2022",
+    "entidad": "GOBERNACIÓN DEL DEPARTAMENTO ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "Norte de Santander",
-    "ciudad": "Cúcuta",
+    "departamento": "San Andrés, Providencia y Santa Catalina",
+    "ciudad": "San Andrés",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestar los Servicios de Apoyo a la Gestión para la ejecución de actividades relacionadas con la organización de Archivos de Gestión a Plan de Mejoramiento ( PMA ), Ordenes Perentorias impuestas por el Archivo General...",
-    "descripcion_completa": "Prestar los Servicios de Apoyo a la Gestión para la ejecución de actividades relacionadas con la organización de Archivos de Gestión a Plan de Mejoramiento ( PMA ), Ordenes Perentorias impuestas por el Archivo General de la Nacion, Organizacion del archivo central de la entidad mediante actividades de Clasificación, Descripción, Inventario, transferencias y traslados documentales en el Archivo Central de la Gobernación del Departamento Norte de Santander.",
+    "descripcion_resumida": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica, apoyandola en el manejo estrategico de la documentacion en custodia de la dependencia, asi como en el control de la misma, s...",
+    "descripcion_completa": "Prestar sus servicios de apoyo a la gestion como tecnologo ante la oficina asesora juridica, apoyandola en el manejo estrategico de la documentacion en custodia de la dependencia, asi como en el control de la misma, su compilacion y organizacion y tambien el apoyo en el archivo de la misma y en la expedicion de documentos administrativos.",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "abierta",
-    "presupuesto": 5500000,
+    "presupuesto": 15709875,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 75 día(s)",
+      "Duración estimada: 5 Mes(es)",
       "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "alta",
-    "afinidad_mpi": "alta",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo",
-      "Organización Documental",
-      "Inventario Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos, inventario documental. Publicado por Gobernación Norte de Santander."
-  },
-  {
-    "id": "secop-CO1.REQ.10939617",
-    "titulo": "Gestor Documental - DAR Suroccidente",
-    "nombre_convocatoria": "CVC CD 765 2026",
-    "entidad": "CVC",
-    "empresa": "Sector Público (Orden Nacional)",
-    "pais": "Colombia",
-    "departamento": "Valle del Cauca",
-    "ciudad": "Cali",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestación de servicios de apoyo técnico al Grupo de Comunicaciones y Gestión Documental de la Secretaría General, como gestor documental del archivo central de la DAR Suroccidente, para la gestión documental de los e...",
-    "descripcion_completa": "Prestación de servicios de apoyo técnico al Grupo de Comunicaciones y Gestión Documental de la Secretaría General, como gestor documental del archivo central de la DAR Suroccidente, para la gestión documental de los expedientes, incluyendo su recepción, revisión, custodia, conservación, digitalización, consulta, préstamo y el recibo y la validación de las transferencias documentales primarias y secundarias, en concordancia con el Programa de Gestión Documental (PGD), el Sistema Integrado de Cons",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 16278585,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 127 día(s)",
-      "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "alta",
-    "afinidad_mpi": "alta",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo",
-      "Digitalización",
-      "Custodia Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, digitalizacion de archivo, custodia documental. Publicado por CVC."
-  },
-  {
-    "id": "secop-CO1.REQ.8997177",
-    "titulo": "PRESTACIÓN DE SERVICIOS PROFESIONALES",
-    "nombre_convocatoria": "UAEPC-CPS-263-2025",
-    "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DE CUNDINAMARCA",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "No especificada",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA GESTIÓN DOCUMENTAL DE LA SUBDIRECCIÓN ADMINISTRATIVA Y FINANCIERA DE LA UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DEL DEPARTAMENTO DE CUNDINAMARCA, MEDIANTE ACTIVIDADES ...",
-    "descripcion_completa": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA GESTIÓN DOCUMENTAL DE LA SUBDIRECCIÓN ADMINISTRATIVA Y FINANCIERA DE LA UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DEL DEPARTAMENTO DE CUNDINAMARCA, MEDIANTE ACTIVIDADES DE ORGANIZACIÓN, CODIFICACIÓN, CONSERVACIÓN, CUSTODIA Y CLASIFICACIÓN DE DOCUMENTOS FÍSICOS",
-    "fecha_publicacion": "No definida",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 7000000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 70 día(s)",
-      "Categoría UNSPSC: V1.80111620"
     ],
     "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
     "enlace_pdf": null,
@@ -1427,9 +1360,9 @@
     "relevancia": "media",
     "afinidad_mpi": "media",
     "etiquetas": [
-      "Custodia Documental"
+      "Organización Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: custodia documental. Publicado por UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DE CUNDINAMARCA."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por GOBERNACIÓN DEL DEPARTAMENTO ARCHIPIELAGO DE SAN ANDRES PROVIDENCIA Y SANTA CATALINA."
   },
   {
     "id": "secop-CO1.REQ.5812848",
@@ -1498,6 +1431,38 @@
       "Custodia Documental"
     ],
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, custodia documental. Publicado por MUNICIPIO DE BUCARAMANGA."
+  },
+  {
+    "id": "secop-CO1.REQ.8997177",
+    "titulo": "PRESTACIÓN DE SERVICIOS PROFESIONALES",
+    "nombre_convocatoria": "UAEPC-CPS-263-2025",
+    "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DE CUNDINAMARCA",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "No especificada",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA GESTIÓN DOCUMENTAL DE LA SUBDIRECCIÓN ADMINISTRATIVA Y FINANCIERA DE LA UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DEL DEPARTAMENTO DE CUNDINAMARCA, MEDIANTE ACTIVIDADES ...",
+    "descripcion_completa": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA GESTIÓN DOCUMENTAL DE LA SUBDIRECCIÓN ADMINISTRATIVA Y FINANCIERA DE LA UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DEL DEPARTAMENTO DE CUNDINAMARCA, MEDIANTE ACTIVIDADES DE ORGANIZACIÓN, CODIFICACIÓN, CONSERVACIÓN, CUSTODIA Y CLASIFICACIÓN DE DOCUMENTOS FÍSICOS",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "abierta",
+    "presupuesto": 7000000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 70 día(s)",
+      "Categoría UNSPSC: V1.80111620"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Custodia Documental"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: custodia documental. Publicado por UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DE CUNDINAMARCA."
   },
   {
     "id": "secop-CO1.REQ.757039",
@@ -1894,41 +1859,6 @@
       "Inventario Documental"
     ],
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos, foliacion de archivo, inventario documental. Publicado por MINVIVIENDA."
-  },
-  {
-    "id": "secop-CO1.REQ.10940319",
-    "titulo": "DCM-108 PRESTACION DE SERVICIOS PROFESIONALES PARA BRINDAR APOYO EN LA GESTION Y ARCHIVO; GARANTIZANDO EL ADECUADO MANEJO; ORGANIZACION; CUSTODIA Y CONSERVACION DE LA PRODUCCION DOCUMENTAL ASI COMO BR",
-    "nombre_convocatoria": "CD-AMT15022026",
-    "entidad": "MUNICIPIO DE TUNJA",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Boyacá",
-    "ciudad": "Tunja",
-    "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "DCM-108 PRESTACION DE SERVICIOS PROFESIONALES PARA BRINDAR APOYO EN LA GESTION Y ARCHIVO, GARANTIZANDO EL ADECUADO MANEJO, ORGANIZACION, CUSTODIA Y CONSERVACION DE LA PRODUCCION DOCUMENTAL ASI COMO BRINDAR APOYO EN LA...",
-    "descripcion_completa": "DCM-108 PRESTACION DE SERVICIOS PROFESIONALES PARA BRINDAR APOYO EN LA GESTION Y ARCHIVO, GARANTIZANDO EL ADECUADO MANEJO, ORGANIZACION, CUSTODIA Y CONSERVACION DE LA PRODUCCION DOCUMENTAL ASI COMO BRINDAR APOYO EN LAS ACTIVIDADES ADMINISTTRATIVAS DE LA GESTIÓN CATASTRAL.",
-    "fecha_publicacion": "2026-08-28",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 15288000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 120 día(s)",
-      "Categoría UNSPSC: V1.80111600"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "alta",
-    "afinidad_mpi": "alta",
-    "etiquetas": [
-      "Gestión Documental",
-      "Archivo",
-      "Organización Documental",
-      "Custodia Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos, custodia documental. Publicado por MUNICIPIO DE TUNJA."
   },
   {
     "id": "secop-CO1.REQ.10934007",
@@ -2458,6 +2388,72 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: tabla de retencion documental. Publicado por ALCALDIA MUNICIPAL DE RESTREPO VALLE DEL CAUCA."
   },
   {
+    "id": "secop-CO1.REQ.7197210",
+    "titulo": "SJD-CD-235-2024",
+    "nombre_convocatoria": "SJD-CD-235-2024*",
+    "entidad": "SECRETARIA JURIDICA DISTRITAL.",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "Bogotá",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "Prestar servicios técnicos a la Dirección de Gestión Corporativa para efectuar el  proceso de transferencia documental primaria y los traslados documentales de los archivos de la Secretaría Jurídica Distrital.",
+    "descripcion_completa": "Prestar servicios técnicos a la Dirección de Gestión Corporativa para efectuar el  proceso de transferencia documental primaria y los traslados documentales de los archivos de la Secretaría Jurídica Distrital.",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "cerrada",
+    "presupuesto": 4134674,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 41 día(s)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por SECRETARIA JURIDICA DISTRITAL.."
+  },
+  {
+    "id": "secop-CO1.REQ.3899217",
+    "titulo": "CONTRATO DE PRESTACION DE SERVICIOS DE APOYO A LA GESTIÓN - DANIELA IVON VARGAS BELTRAN - SAF",
+    "nombre_convocatoria": "CD -190-2023",
+    "entidad": "MINISTERIO DEL INTERIOR",
+    "empresa": "Sector Público (Orden Nacional)",
+    "pais": "Colombia",
+    "departamento": "Distrito Capital de Bogotá",
+    "ciudad": "Bogotá",
+    "tipo_oportunidad": "contratación directa",
+    "descripcion_resumida": "Prestar por sus propios medios, con plena autonomía técnica y administrativa, sus servicios de apoyo a la gestión a la Dirección de Asuntos Indígenas, ROM y Minorías en las actividades relacionadas con la gestión docu...",
+    "descripcion_completa": "Prestar por sus propios medios, con plena autonomía técnica y administrativa, sus servicios de apoyo a la gestión a la Dirección de Asuntos Indígenas, ROM y Minorías en las actividades relacionadas con la gestión documental, correspondencia, archivo y demás documentos que esta área requiera desde la Subdirección Administrativa y Financiera- Grupo de Gestión Administrativa.",
+    "fecha_publicacion": "No definida",
+    "fecha_cierre": "No definida",
+    "estado": "cerrada",
+    "presupuesto": 15200000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación directa",
+      "Duración estimada: 4 Mes(es)",
+      "Categoría UNSPSC: V1.80111600"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "Gestión Documental",
+      "Archivo"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por MINISTERIO DEL INTERIOR."
+  },
+  {
     "id": "secop-CO1.REQ.3974621",
     "titulo": "PRESTAR LOS SERVICIOS DE APOYO A LA GESTION CON PLENA AUTONOMIA TECNICA Y ADMINISTRATIVA EN LAS ACTIVIDADES CORRESPONDIENTES A LA ATENCION AL CIUDADANO; ASI COMO EL APOYO DE FORMA EFICIENTE A LA SUBSE",
     "nombre_convocatoria": "SDM-CPS-427-2023",
@@ -2491,37 +2487,39 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por SECRETARÍA DISTRITAL DE MOVILIDAD."
   },
   {
-    "id": "secop-CO1.REQ.7197210",
-    "titulo": "SJD-CD-235-2024",
-    "nombre_convocatoria": "SJD-CD-235-2024*",
-    "entidad": "SECRETARIA JURIDICA DISTRITAL.",
+    "id": "secop-CO1.REQ.8593291",
+    "titulo": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION",
+    "nombre_convocatoria": "DC-GE-DIRECTA-705-2025",
+    "entidad": "GOBERNACION DEL CAQUETA",
     "empresa": "Sector Público (Orden Territorial)",
     "pais": "Colombia",
-    "departamento": "Distrito Capital de Bogotá",
-    "ciudad": "Bogotá",
+    "departamento": "Caquetá",
+    "ciudad": "No especificada",
     "tipo_oportunidad": "contratación directa",
-    "descripcion_resumida": "Prestar servicios técnicos a la Dirección de Gestión Corporativa para efectuar el  proceso de transferencia documental primaria y los traslados documentales de los archivos de la Secretaría Jurídica Distrital.",
-    "descripcion_completa": "Prestar servicios técnicos a la Dirección de Gestión Corporativa para efectuar el  proceso de transferencia documental primaria y los traslados documentales de los archivos de la Secretaría Jurídica Distrital.",
+    "descripcion_resumida": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN EN EL DESARROLLO DE PROCESOS ARCHIVÍSTICOS PARA LA ORGANIZACIÓN DE LOS DOCUMENTOS DE ARCHIVO, LEVANTAMIENTO DE INVENTARIO DOCUMENTAL Y TAREAS QUE CONTRIBUYAN AL MEJORAMIENTO DEL...",
+    "descripcion_completa": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN EN EL DESARROLLO DE PROCESOS ARCHIVÍSTICOS PARA LA ORGANIZACIÓN DE LOS DOCUMENTOS DE ARCHIVO, LEVANTAMIENTO DE INVENTARIO DOCUMENTAL Y TAREAS QUE CONTRIBUYAN AL MEJORAMIENTO DEL ACERVO DOCUMENTAL DE LAS DIFERENTES SECRETARÍAS, DIRECCIONES, DIVISIONES Y OFICINAS DE LA GOBERNACIÓN DEL CAQUETÁ, EN EL MARCO DEL PROYECTO DENOMINADO  FORTALECIMIENTO DE LA GESTIÓN DOCUMENTAL A TRAVÉS DE LA ELABORACIÓN, ARTICULACIÓN, E IMPLEMENTACIÓN DE LOS INSTRUMENTOS ARCHIVÍSTI",
     "fecha_publicacion": "No definida",
     "fecha_cierre": "No definida",
     "estado": "cerrada",
-    "presupuesto": 4134674,
+    "presupuesto": 15300000,
     "requisitos_principales": [
       "Modalidad de contratación: Contratación directa",
-      "Duración estimada: 41 día(s)",
-      "Categoría UNSPSC: V1.80111600"
+      "Duración estimada: 5 Mes(es)",
+      "Categoría UNSPSC: V1.80111620"
     ],
-    "enlace_convocatoria": "https://community.secop.gov.co/STS/Users/Login/Index",
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8470457",
     "enlace_pdf": null,
     "tipo_enlace": "pagina_convocatoria",
     "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
+    "relevancia": "alta",
+    "afinidad_mpi": "alta",
     "etiquetas": [
       "Gestión Documental",
-      "Archivo"
+      "Archivo",
+      "Organización Documental",
+      "Inventario Documental"
     ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo. Publicado por SECRETARIA JURIDICA DISTRITAL.."
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: gestion documental archivo, organizacion de archivos, inventario documental. Publicado por GOBERNACION DEL CAQUETA."
   },
   {
     "id": "secop-CO1.REQ.10743049",
