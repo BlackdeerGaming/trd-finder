@@ -1893,39 +1893,6 @@
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por EMPRESA DE ACUEDUCTO ALCANTARILLADO Y ASEO DE CORINTO CAUCA EMCORINTO E.S.P. EICE."
   },
   {
-    "id": "secop-CO1.REQ.10910238",
-    "titulo": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION",
-    "nombre_convocatoria": "ESPA-CD-UADFIN-050-2026",
-    "entidad": "EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP",
-    "empresa": "Sector Público (Orden Territorial)",
-    "pais": "Colombia",
-    "departamento": "Casanare",
-    "ciudad": "Aguazul",
-    "tipo_oportunidad": "régimen especial",
-    "descripcion_resumida": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION EL ACOMPANAMIENTO...",
-    "descripcion_completa": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION EL ACOMPANAMIENTO AL PROCESO DE CONVALIDACION Y LA CAPACITACION PARA SU IMPLEMENTACION DE CONFORMIDAD CON LA LEY 594 DEL 2000 ACUERDO 001 DEL 2024 Y DEMAS NORMAS QUE REGULEN LA GESTION DOCUMENTAL",
-    "fecha_publicacion": "2026-08-24",
-    "fecha_cierre": "No definida",
-    "estado": "abierta",
-    "presupuesto": 26180000,
-    "requisitos_principales": [
-      "Modalidad de contratación: Contratación régimen especial",
-      "Duración estimada: 4 Mes(es)",
-      "Categoría UNSPSC: V1.80161506"
-    ],
-    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10764440",
-    "enlace_pdf": null,
-    "tipo_enlace": "pagina_convocatoria",
-    "fuente": "SECOP II · Datos Abiertos Colombia",
-    "relevancia": "media",
-    "afinidad_mpi": "media",
-    "etiquetas": [
-      "TRD",
-      "Tabla de Retención Documental"
-    ],
-    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: tabla de retencion documental. Publicado por EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP."
-  },
-  {
     "id": "secop-CO1.REQ.10387624",
     "titulo": "Solicitud de Cotización Servicio Custodia Documental de la EMB",
     "nombre_convocatoria": "EMB-GGC-006-2026",
@@ -1990,6 +1957,39 @@
       "Organización Documental"
     ],
     "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: organizacion de archivos. Publicado por INSTITUCIÓN EDUCATIVA DEPARTAMENTAL BASICA Y MEDIA SAN ANTONIO."
+  },
+  {
+    "id": "secop-CO1.REQ.10910238",
+    "titulo": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION",
+    "nombre_convocatoria": "ESPA-CD-UADFIN-050-2026",
+    "entidad": "EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP",
+    "empresa": "Sector Público (Orden Territorial)",
+    "pais": "Colombia",
+    "departamento": "Casanare",
+    "ciudad": "Aguazul",
+    "tipo_oportunidad": "régimen especial",
+    "descripcion_resumida": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION EL ACOMPANAMIENTO...",
+    "descripcion_completa": "PRESTAR LOS SERVICIOS PROFESIONALES PARA LA ELABORACION DE LAS TABLAS DE RETENCION DOCUMENTAL TRD DE LA EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP INCLUYENDO SU PRESENTACION PARA APROBACION EL ACOMPANAMIENTO AL PROCESO DE CONVALIDACION Y LA CAPACITACION PARA SU IMPLEMENTACION DE CONFORMIDAD CON LA LEY 594 DEL 2000 ACUERDO 001 DEL 2024 Y DEMAS NORMAS QUE REGULEN LA GESTION DOCUMENTAL",
+    "fecha_publicacion": "2026-08-24",
+    "fecha_cierre": "No definida",
+    "estado": "próxima a cerrar",
+    "presupuesto": 26180000,
+    "requisitos_principales": [
+      "Modalidad de contratación: Contratación régimen especial",
+      "Duración estimada: 4 Mes(es)",
+      "Categoría UNSPSC: V1.80161506"
+    ],
+    "enlace_convocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10764440",
+    "enlace_pdf": null,
+    "tipo_enlace": "pagina_convocatoria",
+    "fuente": "SECOP II · Datos Abiertos Colombia",
+    "relevancia": "media",
+    "afinidad_mpi": "media",
+    "etiquetas": [
+      "TRD",
+      "Tabla de Retención Documental"
+    ],
+    "observaciones_agente": "Proceso identificado por coincidencia real con los términos de búsqueda: tabla de retencion documental. Publicado por EMPRESA DE SERVICIOS PUBLICOS DE AGUAZUL ESPA SA ESP."
   },
   {
     "id": "secop-CO1.REQ.10899950",
